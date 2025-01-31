@@ -1,0 +1,23 @@
+{
+  "name": "solana-token-monitor-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring Solana tokens",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.87.6",
+    "telegraf": "^4.15.3",
+    "redis": "^4.6.11",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2"
+  }
+}
